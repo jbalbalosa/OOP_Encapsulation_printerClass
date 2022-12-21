@@ -26,6 +26,9 @@ public class Printer {
             this.pagePrinted += pages;
             this.tonerLevel -= (pages / 100);
         }
+        if (this.duplexPrinter = true){
+            System.out.println("Printing in duplex");
+        }
     }
 
     public double getTonerLevel() {
